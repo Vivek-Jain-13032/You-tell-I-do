@@ -1,0 +1,25 @@
+Running Instructions:
+
+Step 1. Clone projetc in your system.
+
+Step 2. Run project In Visual Studio Code.
+
+Step 3. Install node_modules
+		Command-> npm install
+
+Step 4. Run db.json file on JSON server on port:3001 and open
+	    for student http://localhost:3001/student
+	    for admin http://localhost:3001/admin
+	  	Command-> json-server --watch db.json --port 3001
+
+Step 5. Run project on port:8000 and open http://localhost:8000/
+			Command-> npm start run
+
+Note:
+To Login As Admin Use:-
+	EmailID: admin@gmail.com
+	Password: spritle
+
+To Check ID and Password Refer to db.json file.
+Data is storing in db.json file.
+

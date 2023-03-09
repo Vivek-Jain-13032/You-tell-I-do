@@ -1,4 +1,3 @@
-import { type } from '@testing-library/user-event/dist/type';
 import axios from 'axios';
 import React, { useEffect, useRef, useState } from 'react'
 import { useLocation } from 'react-router-dom';
@@ -22,18 +21,21 @@ export default function ActivityLog() {
             console.log(Object.values(response.data));
             console.log(student[3].length)
 
-            setAssingments(assingments = student[3])
-            console.log(assingments.length)
-            let a = assingments.filter((f) => {
-                if (f.task == null) {
-                    return true;
+            if(student[3].length > 0){
+                
+                setAssingments(assingments = student[3])
+                console.log(assingments.length)
+                let a = assingments.filter((f) => {
+                    if (f.task == null) {
+                        return true;
+                    }
+                })
+                console.log(a);
+                if (a[0].task == undefined || a[0].task == null) {
+                    setFlag(flag = false)
                 }
-            })
-            console.log(a);
-            if (a[0].task == undefined || a[0].task == null) {
-                setFlag(flag = false)
+                console.log(flag);
             }
-            console.log(flag);
         });
     }, []);
 
@@ -111,7 +113,7 @@ export default function ActivityLog() {
         console.log(temp)
         const words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
         // return words[num];
-        if (temp == null) {
+        if (temp == null || temp == undefined) {
             return 'No Task';
         }
         let tempArr = temp.split('');

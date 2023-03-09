@@ -23,7 +23,7 @@ export default function Navbar() {
                 <div>
                     <nav className="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
                         <div className="container-fluid">
-                            <h5 className='mx-5'>TODOIST</h5>
+                            <h5 className='mx-5'>YOU-TELL-I-DO</h5>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>

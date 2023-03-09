@@ -3,6 +3,8 @@ import React, { useRef } from 'react'
 export default function TaskCard(props) {
     const inputRef = useRef();
 
+    console.log(props.msg)
+
     return (
         <div>
             <div className="card mx-2 my-2" style={(props.fTask=='No Task')?{display:'none'}:{display:'block', width: "16rem" }}>
@@ -26,7 +28,7 @@ export default function TaskCard(props) {
                     <button className='btn btn-danger' onClick={() => props.submitAns(props.task, inputRef.current.value)} style={(props.user) ? { display: 'none' } : { display: 'block' }} disabled={props.answer!='Not Attempted'}>Submit Answer</button>
                 </div>
             </div>
-            <div className='text-center' style={(props.fTask=='No Task')?{width:'500px', margin:'110px'}:{display:'none'}}>
+            <div className='text-center' style={(props.fTask)?{display:'none'}:{width:'500px', margin:'110px'}}>
                 <h1 className='text-center' style={{color:'tomato'}}>Task Not Assigned Yet</h1>
             </div>
         </div>

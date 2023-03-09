@@ -2,58 +2,58 @@
   "student": [
     {
       "id": "vivekjain13032@gmail.com",
-      "name": "vivek jain",
+      "name": "Vivek Jain",
       "password": "pass",
       "assingments": [
         {
-          "task": "2*2",
+          "task": "1+2",
+          "answer": 3,
+          "correct": 3
+        },
+        {
+          "task": "8*2",
+          "answer": 16,
+          "correct": null
+        },
+        {
+          "task": "9-3",
+          "answer": null,
+          "correct": null
+        },
+        {
+          "task": "1*5",
           "answer": null,
           "correct": null
         }
       ]
     },
     {
-      "id": "gaurav@gmail.com",
-      "name": "gaurav",
-      "password": "pass",
+      "id": "anshul@gmail.com",
+      "name": "Anshul",
+      "password": "xyz",
       "assingments": [
         {
-          "task": "1+2",
-          "answer": "3",
-          "correct": 3
+          "task": "1*2",
+          "answer": 2,
+          "correct": 2
         },
         {
           "task": "8*2",
-          "answer": "16",
-          "correct": 16
-        },
-        {
-          "task": "9-9",
-          "answer": "0",
-          "correct": 0
-        },
-        {
-          "task": "4+4",
-          "answer": null,
-          "correct": 8
-        },
-        {
-          "task": "1*5",
-          "answer": null,
-          "correct": 5
+          "answer": 16,
+          "correct": null
         }
       ]
     },
     {
-      "id": "sandip@gmail.com",
-      "name": "sandip",
-      "password": "xyz",
+      "id": "kartik@gmail.com",
+      "name": "Kartik",
+      "password": "pass123",
       "assingments": []
     }
   ],
   "admin": {
     "id": "admin@gmail.com",
     "name": "Spritle",
-    "password": "Spritle"
+    "password": "spritle"
   }
 }
