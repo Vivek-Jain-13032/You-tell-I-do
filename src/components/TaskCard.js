@@ -11,9 +11,9 @@ export default function TaskCard(props) {
                 <div className="card-header">
                     {props.fTask} = ?
                     <div style={(props.answer=='Not Attempted')?{display:'none'}:{display:'block', float:'right'}}>
-                        {(props.answer==props.correct)?<strong>&#9745;</strong>:<strong>&#9746;</strong>}
+                        {(props.answer==props.correct && props.correct != 'Not Declared')?<strong>&#9745;</strong>:<strong style={(props.correct != 'Not Declared')?{display:'block'}:{display:'none'}}>&#9746;</strong>}
                     </div>
-                    <div style={(props.answer=='Not Attempted')?{display:'block', float:'right'}:{display:'none'}}>
+                    <div style={(props.answer=='Not Attempted' || props.correct == 'Not Declared')?{display:'block', float:'right'}:{display:'none'}}>
                         <strong>&#9744;</strong>
                     </div>
                 </div>
