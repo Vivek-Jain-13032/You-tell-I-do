@@ -1,0 +1,93 @@
+{
+    "student": [
+      {
+        "id": "email@com",
+        "name": "vivek",
+        "password": "pass",
+        "assingments": [
+          {
+            "task": "xyz",
+            "answer": null,
+            "correct": null
+          }
+        ]
+      },
+      {
+        "id": "vivekjain13032@gmail.com",
+        "name": "sandip",
+        "password": "pass",
+        "assingments": [
+          {
+            "task": null,
+            "answer": null,
+            "correct": null
+          },
+          {
+            "task": "6",
+            "answer": "z",
+            "correct": null
+          },
+          {
+            "task": "8",
+            "answer": "z",
+            "correct": null
+          },
+          {
+            "task": "50",
+            "answer": "z",
+            "correct": null
+          }
+        ]
+      },
+      {
+        "id": "gaurav@com",
+        "name": "gaurav",
+        "password": "pass",
+        "assingments": [
+          {
+            "task": "1+2",
+            "answer": "3",
+            "correct": 3
+          },
+          {
+            "task": "8*2",
+            "answer": "2",
+            "correct": 16
+          },
+          {
+            "task": "9-9",
+            "answer": "0",
+            "correct": 0
+          },
+          {
+            "task": "0/3",
+            "answer": "2",
+            "correct": null
+          }
+        ]
+      },
+      {
+        "id": "akshy@com",
+        "name": "akshy",
+        "password": "pass",
+        "assingments": []
+      },
+      {
+        "id": "umang@com",
+        "name": "umang",
+        "password": "pass",
+        "assingments": [
+          {
+            "task": "xyz",
+            "answer": "xyz",
+            "correct": null
+          }
+        ]
+      }
+    ],
+    "admin": {
+      "id": "admin@gmail.com",
+      "name": "Spritle",
+      "password": "admin"
+    }
+  }
