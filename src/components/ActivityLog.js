@@ -89,7 +89,7 @@ export default function ActivityLog() {
             if(right == 0){
                 return Infinity;
             }
-            let r = right/left;
+            let r = left/right;
             console.log('r: '+r)
             return Math.floor(r);
         };
@@ -175,7 +175,7 @@ export default function ActivityLog() {
             const operator = convertedTaskArr[i];
             const operand = convertedTaskArr[i + 1];
             console.log(operator + ' ' + result + ' ' + operand)
-            result = operator(result)(operand);
+            result = operator(operand)(result);
         }
         console.log(result);
 

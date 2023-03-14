@@ -3,7 +3,7 @@ import React, { useRef } from 'react'
 export default function TaskCard(props) {
     const inputRef = useRef();
 
-    console.log(props.msg)
+    // console.log(props.msg)
 
     return (
         <div>
